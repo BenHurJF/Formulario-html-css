@@ -1,0 +1,57 @@
+    /*style e animation css*/
+	#block {
+      width: 320px;
+	  height: 610px;
+	  padding: 20px;
+	  margin-top: 6vh;
+	  background-color: #3CB371;
+	  border-radius: 60px;
+	  text-align: 50%;
+	  font-family: 'Nunito', sans-serif;
+	  opacity: 95%;
+	}
+
+	#fontTitulo {
+		text-align: center;
+		padding-bottom: 38px;
+		font-size: 25px;
+		font-family: 'Nunito', sans-serif;
+	}
+
+	#msg {
+	  resize: none;
+	  margin-top: 20px;
+	}
+
+	#button {
+      margin-top: 15px;
+	}
+
+	.flex-box {
+     display: flex;
+	 align-items: center;
+	 justify-content: center;
+	}
+
+	body {
+		box-sizing: border-box;
+		background-color: #90EE90;
+	}
+
+    /*-----Animation-----*/
+	@keyframes up {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+     opacity: 1;
+     transform: translateY(0);
+    }
+	}
+
+	.animate-up {
+	    animation-name: up;
+	    animation-duration: 300ms;
+	    animation-fill-mode: backwards;
+	}

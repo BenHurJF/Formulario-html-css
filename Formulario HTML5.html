@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    Nome: Ben-Hur Jeffer Ferreira de Souza
+    Matricula: 201902501901
+    Formulario html5
+   -->
+	<meta charset="utf-8">
+	<title>Formulario</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">	
+  
+  <link rel="stylesheet" href="./css/estilos-animation.css">
+</head>
+
+<body class="animate-up">
+
+	<div class="flex-box ">
+    <div id="block">
+     <header id="fontTitulo">Formulário</header>
+	 <form>
+	 	<div>
+		<label for="nome">Nome:&nbsp;&nbsp;</label>
+		<input type="text" id="nome" placeholder="nome usuario" autofocus>
+		<br><br>
+        </div>
+
+        <div>
+        <label for="senha">Senha:&nbsp;&nbsp;</label>
+        <input type="password" id="senha" maxlength="15" size="15" required>
+        <br><br>
+        </div>
+        
+        <div>
+        <label for="data">Data de nascimento:&nbsp;</label>
+        <input type="date" id="data" style="width:123px;"><br><br>
+        </div>
+        
+        <div>
+        <label for="exp">Tempo de experiencia:&nbsp;</label>
+        <input type="number" id="exp" min="1" max="40" style="width:70px;"><br><br>
+        </div>
+        
+        <div>
+        <label for="mail">E-mail:&nbsp;&nbsp;</label>
+        <input type="email" id="mail" required placeholder="exemplo@exemplo.com"><br><br>
+        </div>
+        
+        <div>
+        <label for="url">Site:&nbsp;&nbsp;</label>
+        <input type="Url" id="url" placeholder="https://.."><br><br>
+        </div>
+        
+        <div>
+        <label for="fone">Telefone:&nbsp;</label>
+        <input type="tel" id="fone" size="12"><br><br>
+        </div>
+        
+        <div>
+        <label for="cidade">Cidade:&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="cidade" size="12" placeholder="Brasilia"><br><br>
+        </div>
+        
+        <div>
+        <label for="estado">Estado:&nbsp;&nbsp;&nbsp;</label>
+        <select id="estado">
+        	<option>Acre</option>
+        	<option>Amazonas</option>
+        	<option>Bahia</option>
+        	<option>Ceara</option>
+        	<option>Espirito santo</option>
+        	<option>Goias</option>
+        	<option>Distrito Federal</option>
+        	<option>Tocantins</option>
+        	<option>Sao paulo</option>
+        </select><br><br>
+        </div>
+        
+        <div>
+        <label>Sexo:&nbsp;</label>
+        <input type="radio" name="sexo">Masculino&nbsp;
+        <input type="radio" name="sexo">Feminino<br>
+        </div>
+        
+        <div>
+        <label for="texto">Mensagem:&nbsp;</label>
+        <textarea id="msg" cols="20" rows="2" name="msg" placeholder="observações"></textarea>
+        </div>
+        
+        <div class="flex-box" id="button">
+        <br><input type="submit" name="enviar">
+        </div>
+	 </form>
+	</div>
+</div>
+
+</body>
+</html>
